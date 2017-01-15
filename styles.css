@@ -25,6 +25,7 @@ h1{
 
 h3{
 	font-family:Arial;
+	font-color:white;
 	font-size:3.5em;
 	font-weight:normal;
 	margin:0 0 1em;
@@ -72,26 +73,27 @@ article{
 	text-shadow:0 2px 0 black;
 }
 
-figure{
-	border:3px solid #142830;
-	float:right;
-	height:300px;
-	margin-left:15px;
-	overflow:hidden;
-	width:500px;
+img {
+	display: block;
+    	width: 100%;
+	border: 0;
+	box-sizing: border-box;
 }
 
-figure:hover{
-	-moz-box-shadow:0 0 2px #4D7788;
-	-webkit-box-shadow:0 0 2px #4D7788;
-	box-shadow:0 0 2px #4D7788;
-}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+ .carousel-caption {
+	background-color: rgba(0,0,0,0.5);
+	width: auto;
+} 
 
 figure img{
 	margin-left:-60px;
 }
-
-/* Footer styling: */
 
 footer{
 	margin-bottom:30px;
