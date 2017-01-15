@@ -34,7 +34,26 @@ h3{
 p{
 	line-height:1.5em;
 	padding-bottom:1em;
+	font-size: 2.0em;
 }
+
+img {
+	display: block;
+    	width: 100%;
+	border: 0;
+	box-sizing: border-box;
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+ .carousel-caption {
+	background-color: rgba(0,0,0,0.5);
+	width: auto;
+} 
 
 .line{
 	height:1px;
@@ -71,28 +90,6 @@ article{
 	padding:20px;
 	
 	text-shadow:0 2px 0 black;
-}
-
-img {
-	display: block;
-    	width: 100%;
-	border: 0;
-	box-sizing: border-box;
-}
-
- .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-
- .carousel-caption {
-	background-color: rgba(0,0,0,0.5);
-	width: auto;
-} 
-
-figure img{
-	margin-left:-60px;
 }
 
 footer{
