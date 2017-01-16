@@ -38,6 +38,7 @@ img {
 	display: block;
     max-width: 100%;
     margin: auto;
+    height: auto;
 	border: 0;
 	vertical-align: middle;
 	box-sizing: border-box;
