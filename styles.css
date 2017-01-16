@@ -12,10 +12,9 @@ figure{
 
 body {
 	font-size:0.825em;
-	color:#fcfcfc;
-	background-color:#9E000C; 
 	font-family:Arial;
 	text-align: center;
+	background-image:url("img/bg.jpg");
 }
 
 h1{
